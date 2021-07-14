@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>me.daniel.pondusd</string>
+    <key>KeepAlive</key>
+    <dict>
+      <key>SuccessfulExit</key>
+      <false />
+    </dict>
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Minute</key>
+      <integer>30</integer>
+      <key>Hour</key>
+      <integer>15</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/daniel/pondus/log.txt</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/daniel/pondus/log.txt</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/daniel/pondus/venv/bin/python</string>
+      <string>/Users/daniel/pondus/pondus_download.py</string>
+    </array>
+  </dict>
+</plist>
